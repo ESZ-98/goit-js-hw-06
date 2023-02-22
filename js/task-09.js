@@ -3,8 +3,8 @@ function getRandomHexColor() {
 }
 
 const bodyBackground = document.querySelector('body');
-const buttonChangeColor = document.querySelector('change-color');
-const spanColor = document.querySelector('color');
+const buttonChangeColor = document.querySelector('.change-color');
+const spanColor = document.querySelector('.color');
 
 buttonChangeColor.addEventListener('click', () => {
   bodyBackground.style.backgroundColor = getRandomHexColor();
